@@ -9,7 +9,7 @@ class Dog{
 }
 
 function main(){
-	var newDog = Dog("Fiddo", "Lab", "brown", "male");
+	var newDog = new Dog("Fiddo", "Lab", "brown", "male");
 	alert(newDog.name); 
 	alert(newDog.breed);
 	alert(newDog.color);
@@ -30,7 +30,7 @@ class ToDo{
 }
 
 function main(){
-	newToDoList = ToDo("Kenn", "Next Week", ["Do the dishes", "Wash your clothes"])
+	newToDoList = new ToDo("Kenn", "Next Week", ["Do the dishes", "Wash your clothes"])
 	print(newToDoList.list)
 }
 
